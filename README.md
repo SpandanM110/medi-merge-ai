@@ -1,0 +1,77 @@
+# MediMerge AI
+
+![GUI](https://img.shields.io/badge/GUI-USWDS_2.7.1-0B1013)
+![Language](https://img.shields.io/badge/Language-JavaScript-026300)
+![JS Library](https://img.shields.io/badge/JS_Library-React-0047AB)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-5D185B)
+![Known Bugs](https://img.shields.io/badge/Known_Bugs-0-D83933)
+
+## Description
+
+The MediMerge_AI Medical Checker is designed to help you understand the possible causes of symptoms in children and adults.
+
+## Mission
+
+Our mission is to create a free and open source medical symptom checker where all doctors and developers can contribute to it.
+
+## Features
+
+- Well-constructed medical symptom checker.
+- Responsive.
+- Accessible.
+- Beginner-friendly.
+- Intuitive interface.
+- Valid source codes.
+
+## Data Sources
+
+You can find the data sources of the symptoms and diseases at:
+
+- **src/data/SymptomName.jsx**
+- **src/data/DiseaseSymptoms.jsx**
+
+## Build Instructions
+
+1. Navigate to the **src/** directory using your terminal.
+2. Run the following commands:
+
+
+## Build Instructions
+
+1. Navigate to the **src/** directory using your terminal.
+2. Run the following commands:
+
+```
+npm install
+npm run build
+```
+
+3. Test the app locally or online using a live server.
+
+**Note:** If you are testing the app in a subdirectory, make sure to tune the base URL correctly before testing.
+
+## GitHub Pages Deployment Instructions
+
+If you wish to deploy your forked version to GitHub, follow the instructions below.
+
+1. Edit the "package.json" file by adding the following line after the "name" declaration:
+
+```
+"homepage": "https://{GITHUB_USERNAME}.github.io/{REPOSITORY_NAME}/",
+```
+
+> Note: Replace {GITHUB_USERNAME} with your GitHub username and {REPOSITORY_NAME} with your repository name.
+
+2. Install "gh-pages":
+
+```
+npm install gh-pages --save-dev
+```
+
+3. Deploy the app:
+
+```
+npm run deploy
+```
+
+
